@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- Basic -->
+		<meta charset="UTF-8">
+
+		<meta name="keywords" content="HTML5 Admin Template" />
+		<meta name="description" content="Porto Admin - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- Web Fonts  -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.js"></script>
+
+		<script src="js/jquery-2.0.3.min.js" type="text/javascript"
+			charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		if('${msg }'!="") alert('${msg }');
+		</script>
+
+	</head>
+
+	<body>
+<!--		//选择注册类型-->
+		<div class="register">
+			<font size="5" color="#993333"><b>请选择要注册的类型：</b></font>
+				<p>
+					<input type="radio" name="userType" id="Cinput" checked="" />
+					<font size="5" color="#993333"><b>Client</b>
+					</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="userType" id="Sinput" />
+					<font size="5" color="#993333"><b>serviceMan</b>
+					</font>
+		</div>
+
+
+<!--		//client-->
+		<div class="register" id="clientRegister">
+			<form name="register" method="post" action="Register?type=Client">
+				<section class="body-sign">
+					<div class="center-sign">
+						<a href="/" class="logo pull-left">
+							<img src="image/logocc.jpg" left=5 height="55" alt="Porto Admin" />
+						</a>
+
+						<div class="panel panel-sign">
+							<div class="panel-title-sign mt-xl text-right">
+								<h2 class="title text-uppercase text-bold m-none"><i class="fa fa-user mr-xs"></i> Sign Up</h2>
+							</div>
+							<div class="panel-body">
+								<form>
+									<div class="form-group mb-lg">
+										<label>Username</label>
+										<input name="cusername" type="ctext" class="form-control input-lg" />
+									</div>
+
+									<div class="form-group mb-lg">
+										<label>Name</label>
+										<input name="cname" type="cname" class="form-control input-lg" />
+									</div>
+
+									<div class="form-group mb-lg">
+										<label>E-mail Address</label>
+										<input name="cemail" type="cemail" class="form-control input-lg" />
+									</div>
+
+									<div class="form-group mb-lg">
+										<label>Telephone Number</label>
+										<input name="ctele" type="ctele" class="form-control input-lg" />
+									</div>
+
+									<div class="form-group mb-none">
+										<div class="row">
+											<div class="col-sm-6 mb-lg">
+												<label>Password</label>
+												<input name="cpwd" type="cpassword" class="form-control input-lg" />
+											</div>
+											<div class="col-sm-6 mb-lg">
+												<label>Password Confirmation</label>
+												<input name="cpwd_confirm" type="cpassword" class="form-control input-lg" />
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-sm-8">
+											<div class="checkbox-custom checkbox-default">
+												<input id="AgreeTerms" name="agreeterms" type="checkbox"/>
+												<label for="AgreeTerms">I agree with <a href="#">terms of use</a></label>
+											</div>
+										</div>
+										<div class="col-sm-4 text-right">
+											<button type="submit" class="btn btn-primary hidden-xs">Sign Up</button>
+											<button type="submit" class="btn btn-primary btn-block btn-lg visible-xs mt-lg">Sign Up</button>
+										</div>
+									</div>
+
+									<span class="mt-lg mb-lg line-thru text-center text-uppercase">
+										<span>or</span>
+									</span>
+
+									<div class="mb-xs text-center">
+										<a class="btn btn-facebook mb-md ml-xs mr-xs">Connect with <i class="fa fa-facebook"></i></a>
+										<a class="btn btn-twitter mb-md ml-xs mr-xs">Connect with <i class="fa fa-twitter"></i></a>
+									</div>
+
+									<p class="text-center">Already have an account? <a href="login.html">Sign In!</a>
+
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</form>
+		</div>
+
+
+<!--		//servicemanager-->
+		<div class="register" id="serviceManRegister">
+			<form name="Register" method="post" action="Register?type=ServiceMan">
+				<section class="body-sign">
+					<div class="center-sign">
+						<a href="/" class="logo pull-left">
+							<img src="image/logocc.jpg" left=5 height="55" alt="Porto Admin" />
+						</a>
+
+						<div class="panel panel-sign">
+							<div class="panel-title-sign mt-xl text-right">
+								<h2 class="title text-uppercase text-bold m-none"><i class="fa fa-user mr-xs"></i> Sign Up</h2>
+							</div>
+							<div class="panel-body">
+								<form>
+									<div class="form-group mb-lg">
+										<label>Username</label>
+										<input name="susername" type="stext" class="form-control input-lg" />
+									</div>
+
+									<div class="form-group mb-lg">
+										<label>Name</label>
+										<input name="sname" type="sname" class="form-control input-lg" />
+									</div>
+
+									<div class="form-group mb-lg">
+										<label>E-mail Address</label>
+										<input name="semail" type="semail" class="form-control input-lg" />
+									</div>
+
+									<div class="form-group mb-lg">
+										<label>Telephone Number</label>
+										<input name="stele" type="stele" class="form-control input-lg" />
+									</div>
+
+									<div class="form-group mb-lg">
+										<label>Position Title</label>
+										<input name="stitle" type="stitle" class="form-control input-lg" />
+									</div>
+
+									<div class="form-group mb-none">
+										<div class="row">
+											<div class="col-sm-6 mb-lg">
+												<label>Password</label>
+												<input name="spwd" type="spassword" class="form-control input-lg" />
+											</div>
+											<div class="col-sm-6 mb-lg">
+												<label>Password Confirmation</label>
+												<input name="spwd_confirm" type="spassword" class="form-control input-lg" />
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-sm-8">
+											<div class="checkbox-custom checkbox-default">
+												<input id="AgreeTerms" name="agreeterms" type="checkbox"/>
+												<label for="AgreeTerms">I agree with <a href="#">terms of use</a></label>
+											</div>
+										</div>
+										<div class="col-sm-4 text-right">
+											<button type="submit" class="btn btn-primary hidden-xs">Sign Up</button>
+											<button type="submit" class="btn btn-primary btn-block btn-lg visible-xs mt-lg">Sign Up</button>
+										</div>
+									</div>
+
+									<span class="mt-lg mb-lg line-thru text-center text-uppercase">
+										<span>or</span>
+									</span>
+
+									<div class="mb-xs text-center">
+										<a class="btn btn-facebook mb-md ml-xs mr-xs">Connect with <i class="fa fa-facebook"></i></a>
+										<a class="btn btn-twitter mb-md ml-xs mr-xs">Connect with <i class="fa fa-twitter"></i></a>
+									</div>
+
+									<p class="text-center">Already have an account? <a href="login.html">Sign In!</a>
+
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</form>
+		</div>
+
+	</body>
+</html>

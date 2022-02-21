@@ -1,0 +1,251 @@
+@CHARSET "UTF-8";
+
+
+body {
+	background-image: url("/xxx/img/bg1.png");
+	margin:0 auto; /*设置体部居中*/
+	font-family:"新宋体";  /*设置规定元素的字体系列*/
+	line-height:1.5;/*设置字体的行间距*/
+
+}
+#block{
+	width: 80%;
+	
+	margin-left: 10%;
+	background-color: #8080ff;
+}
+#top{
+	width: 100%;
+	height: 20%;
+	
+}
+#left{
+	width: 20%;
+	height: 200%;
+	margin-top:1%;
+	margin-left: 0%;
+	background-color: #669999;
+	float:left;
+}
+#Sright{
+	width: 79%;
+	height: 200%;
+	margin-top:1%;
+	margin-left: 21%;
+	background-color: #DBDBDB;
+	
+}
+.login{
+	height: 60%;
+	width: 40%;
+	background:url(/xxx/img/login.jpg) no-repeat top;
+	margin: 0 auto;
+
+}
+.mesg{
+	margin-top: 10%;
+	color:red;
+	font-size: 36px;
+	
+}
+.login table{
+	padding-top: 20%;
+}
+
+.login table tr{
+	height: 40px;
+}
+.login table tr td{
+	font-weight: bold;
+}
+
+#input{
+	width: 160px;
+	height: 28px;
+	border-width:2px;
+	text-align: center;
+}
+#in{
+	width: 50px;
+	height: 28px;
+	border-width:2px;
+	text-align: center;
+}
+#in:hover{
+	border-color: green;
+}
+#input:hover{
+	border-color: green;
+}
+#select{
+	width: 160px;
+	height: 28px;
+	text-align: center;
+	border-width:1px;
+}
+#select:hover{
+	border-color: green;
+}
+#button{
+	background: url(/xxx/img/button6.png);
+	width: 65px;
+	height: 20px;
+}
+
+.register{
+	margin-top:5%;
+	margin-left: 20%;
+}
+.register table{
+	margin-top: 8%;
+	margin-left: 25%;
+}
+.register table tr td{
+	font-weight: bold;
+}
+.register table tr{
+	height: 40px;
+}
+#serviceManRegister{
+	display:none;
+}	
+.button{
+	margin-left: 30%;
+	
+}
+.LOG {
+	margin-top:0%;
+	margin-left: 50%;
+}
+.LOG a{
+	color: red;
+}
+a:hover{
+	color: green;
+}
+#topLogo{
+	padding:0px;
+	margin: 0px;
+}
+.Smenu{
+	margin-top: 30%;
+}
+.checkList{
+	margin-top:5%;
+	
+}
+caption {
+	margin-top:5%;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.checkList table tr th{
+	 background-color: #669999;
+	 height: 30px;
+}
+.checkList table tr td{
+	text-align: center;
+	height: 30%；
+}
+div.item{
+	background-color: #669999; 
+	padding: 10px;
+	font-size:150%;
+	font-weight: bold;
+}
+
+
+.personalInfo table{
+	margin-top: 10%;
+	margin-left: 25%;
+}
+.personalInfo table tr td{
+	font-weight: bold;
+}
+.personalInfo table tr{
+	height: 40px;
+}
+.deleteComponent{
+	margin-top:5%;
+	margin-left: 85%;
+}
+
+.checkComponent table tr th{
+	 background-color: #669999;
+	 height: 30px;
+}
+.checkComponent table tr td{
+	text-align: center;
+	height: 30%；
+}
+.addComponent table tr td{
+	font-weight: bold;
+}
+.addComponent table tr{
+	height: 40px;
+}
+.addComponent {
+	margin-top: 5%;
+	margin-left: 25%;
+}
+.supdate table tr td{
+	font-weight: bold;
+}
+.supdate table tr{
+	height: 40px;
+}
+.supdate {
+	
+	margin-left: 25%;
+}
+.updateButton{
+	margin-top: 3%;
+	margin-left: 7%
+}
+.deleteCar{
+	margin-top:5%;
+	margin-left: 85%;
+}
+.service{
+	margin-top: 5%;
+}
+.service table tr th{
+	 background-color: #669999;
+	 height: 30px;
+}
+.service table tr td{
+	text-align: center;
+	height: 30%；
+}
+.carQuestion{
+	margin-top: 5%;
+	margin-left: 25%;
+}
+#A{
+	margin-left: 75%;
+}
+.modifyTable table tr{
+	height: 20%;
+}
+.modifyTable table tr th{
+	background-color: #669999;
+}
+.modifyTable table tr td{
+	text-align: center;
+}
+#serviceFee table tr{
+	height: 20%;
+}
+#serviceFee table tr th{
+	background-color: #669999;
+}
+#serviceFee table tr td{
+	text-align: center;
+}
+#toUse{
+	display: none;
+}
+#used{
+	display: block;
+}

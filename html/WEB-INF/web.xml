@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.cm.action.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.cm.action.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewBill</servlet-name>
+    <servlet-class>com.cm.action.ViewBillServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginOut</servlet-name>
+    <servlet-class>com.cm.action.LoginOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyInfo</servlet-name>
+    <servlet-class>com.cm.action.ModifyInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewUserInfo</servlet-name>
+    <servlet-class>com.cm.action.ViewUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ManageCar</servlet-name>
+    <servlet-class>com.cm.action.ManageCarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ManagePart</servlet-name>
+    <servlet-class>com.cm.action.ManagePartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyBill</servlet-name>
+    <servlet-class>com.cm.action.ModifyBillServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewBill</servlet-name>
+    <url-pattern>/ViewBill</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginOut</servlet-name>
+    <url-pattern>/LoginOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyInfo</servlet-name>
+    <url-pattern>/ModifyInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewUserInfo</servlet-name>
+    <url-pattern>/ViewUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageCar</servlet-name>
+    <url-pattern>/ManageCar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagePart</servlet-name>
+    <url-pattern>/ManagePart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyBill</servlet-name>
+    <url-pattern>/ModifyBill</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
